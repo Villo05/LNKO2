@@ -73,8 +73,17 @@ lnkoTest();
 
 function lnkoTest2() {
   const testEsetlista = [
-    { a: 18, b: 3, elvart: 3, szoveg: "a töbszörse b-nek" },
-    { a: 24, b: 18, elvart: 6, szoveg: "a nem töbszörse b-nek. de az lnko >1" },
+    {
+      a: 18,
+      b: 3, elvart: 3, 
+      szoveg: "a töbszörse b-nek" 
+    },
+    { 
+      a: 24, 
+      b: 18, 
+      elvart: 6, 
+      szoveg: "a nem töbszörse b-nek. de az lnko >1" 
+    },
     {
       a: 8,
       b: 15,
@@ -110,3 +119,5 @@ function lnkoTest2() {
   }
 }
 lnkoTest2();
+
+
